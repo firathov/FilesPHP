@@ -35,12 +35,6 @@ if (isset($_POST['name']) && isset($_POST['pass']) && isset($_POST['radio'])) {
                         break;
                     }
                 }
-                break;
-            }
-            else
-            {
-                echo "wrong symbol or didn't sign up";
-                break;
             }
         }
     }
